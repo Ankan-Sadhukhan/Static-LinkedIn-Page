@@ -6,3 +6,124 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background: rgb(235, 235, 235);
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.3rem 4rem;
+    background: #fff;
+}
+
+nav .wrapper .left,
+nav .wrapper .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 2rem;
+}
+
+nav .wrapper .left{
+    padding-left: 3rem;
+    display: flex;
+    gap: 0.7rem;
+}
+
+nav .wrapper .logo i{
+    font-size: 2.5rem;
+    color: rgb(104, 104, 255);
+}
+
+nav .wrapper .logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .wrapper .left .input{
+    background: rgba(232, 239, 243, 0.911);
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.2rem;
+}
+nav .wrapper .left .input input[type='search']{
+    width: 15rem;
+    border: none;
+    background: transparent;
+}
+
+nav .wrapper .left .input input[type='search']::placeholder{
+    font-size: 0.8rem;
+    color: rgb(49,49, 49);
+    font-weight: 100;
+}
+
+nav .wrapper .left .input i{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+nav .wrapper .right .home,
+nav .wrapper .right .network,
+nav .wrapper .right .jobs,
+nav .wrapper .right .message,
+nav .wrapper .right .notification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+nav .wrapper .right .home,
+nav .wrapper .right .network:hover,
+nav .wrapper .right .jobs:hover,
+nav .wrapper .right .message:hover,
+nav .wrapper .right .notification:hover,
+nav .wrapper .right .me i:hover{
+    color: #000;
+}
+
+nav .wrapper .right .network,
+nav .wrapper .right .jobs,
+nav .wrapper .right .message,
+nav .wrapper .right .notification{
+    color: gray;
+}
+
+nav .wrapper .right .home i,
+nav .wrapper .right .network i,
+nav .wrapper .right .jobs i,
+nav .wrapper .right .message i,
+nav .wrapper .right .notification i{
+    font-size: 1.2rem;
+}
+
+nav .wrapper .right .me i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: gray;
+}
+
+.wrapper a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    width: 8.8rem;
+    text-align: center;
+    color: gray;
+}
+
+.wrapper a:hover{
+    text-decoration: underline;
+}
