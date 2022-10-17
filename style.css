@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background: rgb(235, 235, 235);
 }
 
-nav .wrapper{
+nav .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,31 +21,31 @@ nav .wrapper{
 }
 
 nav .wrapper .left,
-nav .wrapper .right{
+nav .wrapper .right {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     gap: 2rem;
 }
 
-nav .wrapper .left{
+nav .wrapper .left {
     padding-left: 3rem;
     display: flex;
     gap: 0.7rem;
 }
 
-nav .wrapper .logo i{
+nav .wrapper .logo i {
     font-size: 2.5rem;
     color: rgb(104, 104, 255);
 }
 
-nav .wrapper .logo img{
+nav .wrapper .logo img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-nav .wrapper .left .input{
+nav .wrapper .left .input {
     background: rgba(232, 239, 243, 0.911);
     width: 100%;
     padding: 0.5rem 0.8rem;
@@ -54,19 +54,20 @@ nav .wrapper .left .input{
     gap: 0.5rem;
     border-radius: 0.2rem;
 }
-nav .wrapper .left .input input[type='search']{
+
+nav .wrapper .left .input input[type='search'] {
     width: 15rem;
     border: none;
     background: transparent;
 }
 
-nav .wrapper .left .input input[type='search']::placeholder{
+nav .wrapper .left .input input[type='search']::placeholder {
     font-size: 0.8rem;
-    color: rgb(49,49, 49);
+    color: rgb(49, 49, 49);
     font-weight: 100;
 }
 
-nav .wrapper .left .input i{
+nav .wrapper .left .input i {
     font-size: 0.8rem;
     color: grey;
 }
@@ -75,7 +76,7 @@ nav .wrapper .right .home,
 nav .wrapper .right .network,
 nav .wrapper .right .jobs,
 nav .wrapper .right .message,
-nav .wrapper .right .notification{
+nav .wrapper .right .notification {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,14 +90,14 @@ nav .wrapper .right .network:hover,
 nav .wrapper .right .jobs:hover,
 nav .wrapper .right .message:hover,
 nav .wrapper .right .notification:hover,
-nav .wrapper .right .me i:hover{
+nav .wrapper .right .me i:hover {
     color: #000;
 }
 
 nav .wrapper .right .network,
 nav .wrapper .right .jobs,
 nav .wrapper .right .message,
-nav .wrapper .right .notification{
+nav .wrapper .right .notification {
     color: gray;
 }
 
@@ -104,16 +105,16 @@ nav .wrapper .right .home i,
 nav .wrapper .right .network i,
 nav .wrapper .right .jobs i,
 nav .wrapper .right .message i,
-nav .wrapper .right .notification i{
+nav .wrapper .right .notification i {
     font-size: 1.2rem;
 }
 
-nav .wrapper .right .notification{
+nav .wrapper .right .notification {
     border-right: 1px solid grey;
     padding-right: 20px;
 }
 
-nav .wrapper .right .me i{
+nav .wrapper .right .me i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +122,7 @@ nav .wrapper .right .me i{
     color: gray;
 }
 
-.wrapper a{
+.wrapper a {
     text-decoration: none;
     font-size: 0.8rem;
     width: 8.8rem;
@@ -129,13 +130,13 @@ nav .wrapper .right .me i{
     color: gray;
 }
 
-.wrapper a:hover{
+.wrapper a:hover {
     text-decoration: underline;
 }
 
 /* ````````````````````````````Sidebar``````````````````````````````````````` */
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     gap: 2rem;
@@ -155,11 +156,11 @@ aside .sidebar {
 .sidebar .top {
     width: 100%;
     height: 9vh;
-    background-image: url(./background.jpg); 
-    position:absolute;
+    background-image: url(./background.jpg);
+    position: absolute;
 }
 
-.sidebar img{
+.sidebar img {
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -170,7 +171,7 @@ aside .sidebar {
     border: 2px solid #fff;
 }
 
-aside .sidebar .profile{
+aside .sidebar .profile {
     position: relative;
     text-align: center;
     top: 30%;
@@ -179,23 +180,24 @@ aside .sidebar .profile{
     gap: 0.3rem;
     border-bottom: 1px solid rgb(185, 185, 185);
     height: 10vh;
+    padding-bottom: 4rem;
 }
 
-.sidebar .profile small{
+.sidebar .profile small {
     font-size: 0.7rem;
     color: grey;
 }
 
-.sidebar .profile a{
-    text-decoration:none;
+.sidebar .profile a {
+    text-decoration: none;
     color: #000;
 }
 
-.sidebar .profile a:hover{
+.sidebar .profile a:hover {
     text-decoration: underline;
 }
 
-.sidebar .view{
+.sidebar .view {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -204,7 +206,7 @@ aside .sidebar .profile{
     border-bottom: 1px solid rgb(185, 185, 185);
 }
 
-.sidebar .view .views{
+.sidebar .view .views {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -213,22 +215,22 @@ aside .sidebar .profile{
     cursor: pointer;
 }
 
-.sidebar .view .views:hover{
+.sidebar .view .views:hover {
     background-color: rgb(233, 233, 233);
 }
 
-.sidebar .view .views h6{
+.sidebar .view .views h6 {
     color: grey;
     font-weight: 100;
 }
 
-.sidebar .view .views a{
+.sidebar .view .views a {
     color: rgb(8, 8, 158);
     text-decoration: none;
     font-size: 0.8rem;
 }
 
-.sidebar .premium{
+.sidebar .premium {
     position: relative;
     top: 32%;
     padding-left: 7px;
@@ -236,13 +238,13 @@ aside .sidebar .profile{
     border-bottom: 1px solid rgb(185, 185, 185)
 }
 
-.sidebar .premium h6{
+.sidebar .premium h6 {
     color: gray;
     font-weight: 100;
-    margin-left: 0.2rem ;
+    margin-left: 0.2rem;
 }
 
-.sidebar .premium a{
+.sidebar .premium a {
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -252,11 +254,11 @@ aside .sidebar .profile{
     color: #000;
 }
 
-.sidebar .premium a i{
+.sidebar .premium a i {
     color: #fbff00;
 }
 
-.items{
+.items {
     position: relative;
     top: 35%;
     display: flex;
@@ -266,7 +268,7 @@ aside .sidebar .profile{
     cursor: pointer;
 }
 
-aside .recent_jobs{
+aside .recent_jobs {
     background: #fff;
     margin-top: 0.6rem;
     width: 100%;
@@ -276,15 +278,15 @@ aside .recent_jobs{
     overflow: hidden;
 }
 
-aside .recent_jobs .recent{
+aside .recent_jobs .recent {
     margin: 1rem;
 }
- 
-aside .recent_jobs .recent h6{
+
+aside .recent_jobs .recent h6 {
     font-weight: 100;
 }
 
-aside .recent_jobs .recent .one{
+aside .recent_jobs .recent .one {
     display: flex;
     align-items: center;
     margin-top: 0.3rem;
@@ -292,21 +294,21 @@ aside .recent_jobs .recent .one{
     color: rgb(83, 83, 83);
 }
 
-aside .recent_jobs .recent .one i{
+aside .recent_jobs .recent .one i {
     font-size: 0.8rem;
 }
 
-aside .recent_jobs .groups{
+aside .recent_jobs .groups {
     margin: 2rem 0 0 1rem;
 }
 
-aside .recent_jobs .groups h6:first-child{
+aside .recent_jobs .groups h6:first-child {
     color: rgb(100, 100, 230);
     font-weight: 0.7rem;
     margin-bottom: 0.6rem;
 }
 
-aside .recent_jobs .groups .two{
+aside .recent_jobs .groups .two {
     display: flex;
     align-items: center;
     margin-top: 0.5rem;
@@ -314,17 +316,17 @@ aside .recent_jobs .groups .two{
     color: gray;
 }
 
-aside .recent_jobs .hashtag{
+aside .recent_jobs .hashtag {
     margin: 2rem 0 0 1rem;
 }
 
-aside .recent_jobs .hashtag h6:first-child{
+aside .recent_jobs .hashtag h6:first-child {
     color: rgb(91, 91, 194);
     margin-bottom: 0.4rem;
     font-weight: 0.7rem;
 }
 
-aside .recent_jobs .hashtag .three{
+aside .recent_jobs .hashtag .three {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -334,7 +336,7 @@ aside .recent_jobs .hashtag .three{
 
 /* ``````````````````````Main section````````````````````````````` */
 
-main .media{
+main .media {
     background: #fff;
     height: 20vh;
     border-radius: 0.8rem;
@@ -346,13 +348,13 @@ main .media .search {
     padding: 1rem;
 }
 
-main .media .search img{
+main .media .search img {
     width: 3.1rem;
     height: 3.1rem;
     border-radius: 50%;
 }
 
-main .media .search input{
+main .media .search input {
     border-radius: 5rem;
     border: 1px solid grey;
     width: 100%;
@@ -360,68 +362,73 @@ main .media .search input{
     cursor: pointer;
 }
 
-main .media .search input:hover{
+main .media .search input:hover {
     background: rgb(235, 235, 235);
 }
 
-main .media .posts{
+main .media .posts {
     display: flex;
     justify-content: space-between;
     margin: 0.6rem 3rem;
 }
 
-main .media .posts .post{
+main .media .posts .post {
     display: flex;
     gap: 1rem;
     cursor: pointer;
     opacity: 0.7;
 }
 
-main .media .posts .post:nth-child(1) i{
+main .media .posts .post:nth-child(1) i {
     color: rgb(57, 108, 247);
 }
-main .media .posts .post:nth-child(2) i{
+
+main .media .posts .post:nth-child(2) i {
     color: rgb(73, 221, 43);
 }
-main .media .posts .post:nth-child(3) i{
+
+main .media .posts .post:nth-child(3) i {
     color: rgb(139, 113, 235);
 }
-main .media .posts .post:nth-child(4) i{
+
+main .media .posts .post:nth-child(4) i {
     color: rgb(255, 163, 24);
 }
 
 
-.post_item{
-    margin-bottom: 10px;
+.post_item {
     background-color: #fff;
-    height: 91vh;
+    height: 90vh;
     margin-top: 1.8rem;
     border-radius: 0.8rem;
 
 }
-.input_option{
-    padding:10px;
-    margin-top:5px;
-    border-radius:5px;
-}
-.input_option:hover{
-    
-    background:rgba(0,0,0,.15);
-    cursor:pointer;
+
+.input_option {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
-.post_item_owner > a{
-    text-decoration:none;
-    color:black;
+.input_option:hover {
+
+    background: rgba(0, 0, 0, .15);
+    cursor: pointer;
+}
+
+.post_item_owner>a {
+    text-decoration: none;
+    color: black;
     font-size: 1.4 rem;
-    font-weight:600;
+    font-weight: 600;
 }
-.post_item_owner > a:hover{
-    color:blue;
+
+.post_item_owner>a:hover {
+    color: blue;
 }
 
 
-.post_item_header{
+.post_item_header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -429,114 +436,124 @@ main .media .posts .post:nth-child(4) i{
     padding-left: 1rem;
 }
 
-.post_item_info{
+.post_item_info {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.post_item_owner > p{
+    font-size: 0.8rem;
+    color: gray;
 }
-.post_item_header > i:hover{
-    cursor:pointer;
-    background-color:lightgray;
+
+.post_item_header>i:hover {
+    cursor: pointer;
+    background-color: lightgray;
     border-radius: 500px;
-    
+
 }
 
 
-.post_item_body_info >p {
-    padding:10px 0px;
+.post_item_body_info>p {
+    padding: 10px 0px;
     font-size: 1.05rem;
-    color:black;
+    color: black;
 }
 
-.post_item_comment_info{
+.post_item_comment_info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1.2rem;
 }
 
-.post_item_comment_info i{
+.post_item_comment_info i {
     color: rgb(52, 206, 73);
     border: 1px solid rgb(27, 27, 4);
     padding: 0.2rem;
     border-radius: 50%;
 }
-.post_item_comment_info .account_name{
+
+.post_item_comment_info .account_name {
     color: gray;
 }
 
-.post_item_footer{
+.post_item_footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
     padding-right: 17rem;
-    border-top:1px solid lightgray;
+    border-top: 1px solid lightgray;
     flex-wrap: wrap;
 
 }
 
-.post_item_footer > .footer_item{
+.post_item_footer>.footer_item {
     display: flex;
     gap: 0.6rem;
     padding-top: 0.5rem;
     align-items: center;
-    margin-right:10px;
-    color:rgb(100, 95, 95);
+    margin-right: 10px;
+    color: rgb(100, 95, 95);
     font-size: 0.8 rem !important;
+}
+
+.content{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
 }
 
 
 
 /* `````````````````````````````````right section starts here``````````````````````````````````` */
 
-.right_sidebar{
+.right_sidebar {
     background-color: #fff;
     border-radius: 0.8rem;
     height: 50vh;
 }
 
-.right_sidebar .news{
+.right_sidebar .news {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1rem;
 }
 
-.right_sidebar .news h5,h4{
+.right_sidebar .news h5,
+h4 {
     font-weight: 500;
 }
 
-.right_sidebar .latest_news{
+.right_sidebar .latest_news {
     margin: 0.5rem 1rem;
 }
 
-.right_sidebar .latest_news .one{
+.right_sidebar .latest_news .one {
     display: flex;
     align-items: center;
     gap: 1.5rem;
 }
 
-.right_sidebar .latest_news .one i{
+.right_sidebar .latest_news .one i {
     font-size: 0.5rem;
     color: grey;
 }
 
-.right_sidebar .latest_news .two{
+.right_sidebar .latest_news .two {
     margin: 0 1.9rem;
     font-size: 0.8rem;
     color: gray;
 }
 
 
-.new_news{
+.new_news {
     background-color: #fff;
     border-radius: 0.8rem;
     height: 35vh;
     margin-top: 2rem;
     padding-top: 0.2rem;
 }
-
